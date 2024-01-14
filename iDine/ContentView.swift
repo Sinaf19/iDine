@@ -18,6 +18,7 @@ struct ContentView: View {
                             ItemRow(item: item)
                         }
                     }
+                    .font(.title3)
                 }
             }
             .navigationTitle("Menu")
