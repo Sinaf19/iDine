@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		5F3EA0912B53C12F003A7E91 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3EA0902B53C12F003A7E91 /* ItemRow.swift */; };
 		5F3EA0932B554B79003A7E91 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3EA0922B554B79003A7E91 /* ItemDetail.swift */; };
+		5F3EA0952B55BFB4003A7E91 /* GrowingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3EA0942B55BFB4003A7E91 /* GrowingButton.swift */; };
+		5F3EA0972B55C177003A7E91 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3EA0962B55C177003A7E91 /* OrderView.swift */; };
+		5F3EA0992B55C2B7003A7E91 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3EA0982B55C2B7003A7E91 /* MainView.swift */; };
+		5F3EA09B2B55C784003A7E91 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3EA09A2B55C784003A7E91 /* CheckoutView.swift */; };
 		5FD448B12B53B5C100713CCA /* iDineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD448B02B53B5C100713CCA /* iDineApp.swift */; };
 		5FD448B32B53B5C100713CCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD448B22B53B5C100713CCA /* ContentView.swift */; };
 		5FD448B52B53B5C300713CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FD448B42B53B5C300713CCA /* Assets.xcassets */; };
@@ -42,6 +46,10 @@
 /* Begin PBXFileReference section */
 		5F3EA0902B53C12F003A7E91 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		5F3EA0922B554B79003A7E91 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		5F3EA0942B55BFB4003A7E91 /* GrowingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingButton.swift; sourceTree = "<group>"; };
+		5F3EA0962B55C177003A7E91 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		5F3EA0982B55C2B7003A7E91 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5F3EA09A2B55C784003A7E91 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		5FD448AD2B53B5C100713CCA /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD448B02B53B5C100713CCA /* iDineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineApp.swift; sourceTree = "<group>"; };
 		5FD448B22B53B5C100713CCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +115,10 @@
 			isa = PBXGroup;
 			children = (
 				5F3EA0922B554B79003A7E91 /* ItemDetail.swift */,
+				5F3EA0962B55C177003A7E91 /* OrderView.swift */,
+				5F3EA09A2B55C784003A7E91 /* CheckoutView.swift */,
+				5F3EA0982B55C2B7003A7E91 /* MainView.swift */,
+				5F3EA0942B55BFB4003A7E91 /* GrowingButton.swift */,
 				5FD448DC2B53B61200713CCA /* Order.swift */,
 				5FD448DE2B53B61700713CCA /* Menu.swift */,
 				5FD448DA2B53B5F900713CCA /* Helper.swift */,
@@ -277,12 +289,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F3EA0932B554B79003A7E91 /* ItemDetail.swift in Sources */,
+				5F3EA09B2B55C784003A7E91 /* CheckoutView.swift in Sources */,
 				5FD448B32B53B5C100713CCA /* ContentView.swift in Sources */,
 				5FD448B12B53B5C100713CCA /* iDineApp.swift in Sources */,
+				5F3EA0992B55C2B7003A7E91 /* MainView.swift in Sources */,
 				5FD448DD2B53B61200713CCA /* Order.swift in Sources */,
 				5F3EA0912B53C12F003A7E91 /* ItemRow.swift in Sources */,
 				5FD448DB2B53B5F900713CCA /* Helper.swift in Sources */,
+				5F3EA0972B55C177003A7E91 /* OrderView.swift in Sources */,
 				5FD448DF2B53B61700713CCA /* Menu.swift in Sources */,
+				5F3EA0952B55BFB4003A7E91 /* GrowingButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
