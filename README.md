@@ -9,3 +9,7 @@ An app to show a menu from a restaurant. It has a detail view of each item on th
 This app has been made thanks to the tutorial from [hacking with swift](https://www.hackingwithswift.com/quick-start/swiftui)
 
 That was fun. Hope I can find time to make some more :)
+
+Here's a little demo of it:
+
+![Demo iDine](./iDine/Assets.xcassets)
