@@ -12,4 +12,4 @@ That was fun. Hope I can find time to make some more :)
 
 Here's a little demo of it:
 
-![Demo iDine](./iDine/Assets.xcassets)
+![Demo iDine](./iDine/Assets.xcassets/Simulator Screen Recording - iPhone 15 Plus - 2024-01-16 at 17.39.08.gif)
